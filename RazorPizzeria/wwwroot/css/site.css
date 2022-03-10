@@ -1,0 +1,53 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.mainText {
+    padding: 75px 20px;
+}
+
+
+.mainImage {
+    border-radius: 20px;
+    filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.3));
+    margin: 40px;
+}
+
+.mainSubTitle {
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.smallText {
+    text-align: right;
+    color: grey;
+}
+
+.makeYourOwnDiv {
+    background: grey;
+    margin: 0;
+}
+
+.makeYourOwnText {
+    margin: 100px 0 20px 0;
+    color: white;
+}
+
+.pizza-img :hover{
+    transform: scale(1.05);
+}
